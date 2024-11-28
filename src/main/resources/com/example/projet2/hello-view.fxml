@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.MeshView?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="1314.0" style="-fx-background-color: #ffffff;" styleClass="style" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="127.0" prefWidth="1314.0" style="-fx-background-color: #eaf1f6;" styleClass="style" stylesheets="@style.css">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="32.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="68.0" layoutY="15.0" text="Salesforce">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="327.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3917618.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="374.0" layoutY="7.0" prefHeight="48.0" prefWidth="472.0" style="-fx-background-color: #53585b;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <Button layoutX="22.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="75.0" style="-fx-background-color: #53585b;" text="Accueil" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button layoutX="129.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="61.0" style="-fx-background-color: #53585b;" text="client" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button layoutX="245.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: #53585b;" text="fournisseur" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button layoutX="372.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: #53585b;" text="propos" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="893.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/174848.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="920.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/2111463.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="953.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3665178.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="21.0" fitWidth="23.0" layoutX="987.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3670051.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="1163.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/4926637.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="866.0" layoutY="14.0" orientation="VERTICAL" prefHeight="34.0" prefWidth="1.0" style="-fx-background-color: #404142;" />
+            <Separator layoutX="1150.0" layoutY="13.0" orientation="VERTICAL" prefHeight="34.0" prefWidth="6.0" style="-fx-background-color: #404142;" />
+            <ImageView fitHeight="32.0" fitWidth="21.0" layoutX="1240.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3916864.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="1261.0" layoutY="21.0" text="camara">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Circle fill="WHITE" layoutX="1221.0" layoutY="31.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="32.0" fitWidth="26.0" layoutX="1208.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/1_vhG4oM_4FMbdQC4L2B9KXg.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="194.0" prefHeight="214.0" prefWidth="694.0" style="-fx-background-color: #eaf1f5;" styleClass="style" stylesheets="@style.css">
+         <children>
+            <AnchorPane layoutX="52.0" layoutY="97.0" prefHeight="34.0" prefWidth="34.0">
+               <children>
+                  <Slider layoutX="-35.0" layoutY="7.0" prefHeight="14.0" prefWidth="250.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="187.0" layoutY="97.0" prefHeight="34.0" prefWidth="34.0" />
+            <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="59.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(11).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="109.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(12).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="160.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Charles%20Kofi%20Ofosu.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="17.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(9).jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="40.0" layoutY="14.0" text="Total de montant">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="638.0" layoutY="38.0" text="12" textFill="#131313">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="297.0" layoutY="14.0" text="Mois passé">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="620.0" layoutY="14.0" text="Jours">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="316.0" layoutY="38.0" text="232.2">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="79.0" layoutY="38.0" text="32443.23">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <MeshView layoutX="238.0" layoutY="114.0" />
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="41.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(20).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="226.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3916869.png" />
+               </image>
+            </ImageView>
+            <LineChart fx:id="Linechart" layoutX="379.0" layoutY="64.0" prefHeight="150.0" prefWidth="418.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" fx:id="x" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="y" side="LEFT" />
+              </yAxis>
+            </LineChart>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="823.0" layoutY="194.0" prefHeight="215.0" prefWidth="472.0" style="-fx-background-color: #eaf1f5;" styleClass="style" stylesheets="@style.css">
+         <children>
+            <Label layoutX="171.0" layoutY="8.0" prefHeight="34.0" prefWidth="234.0" text="Total dette">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="22.0" layoutY="112.0" prefHeight="74.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="25.0" layoutY="3.0" prefHeight="22.0" prefWidth="75.0" text="23354555" textFill="#030303">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="32.0" layoutY="45.0" prefHeight="18.0" prefWidth="62.0" text="CVFH">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="171.0" layoutY="100.0" prefHeight="90.0" prefWidth="102.0" style="-fx-background-color: #f7f78a;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="4.0" prefHeight="20.0" prefWidth="75.0" text="23354555">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="29.0" layoutY="56.0" prefHeight="20.0" prefWidth="44.0" text="GGCC">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="99.0" layoutY="43.0" prefHeight="30.0" prefWidth="124.0" text="23354555" textFill="#df0707">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="23.0" layoutX="76.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(20).jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="394.0" layoutY="52.0" prefHeight="30.0" prefWidth="75.0" text="EXPECTRE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+            <Button layoutX="303.0" layoutY="134.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="175.0" style="-fx-background-color: #252523;" styleClass="style" stylesheets="@style.css" text="PLAY NOW" textFill="#efefef">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="69.0" layoutY="150.0" text="Invoices">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="23.0" layoutX="1056.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/4502383.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1090.0" layoutY="138.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="206.0" styleClass="style" stylesheets="@style.css" text="Emporter">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="17.0" layoutY="423.0" text="Actives filtrés">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="14.0" layoutY="467.0" prefHeight="282.0" prefWidth="1289.0" style="-fx-background-color: #404142;" styleClass="style" stylesheets="@style.css">
+         <children>
+            <AnchorPane layoutX="728.0" layoutY="38.0" prefHeight="236.0" prefWidth="539.0" style="-fx-background-color: #a6bdbd;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <AnchorPane layoutX="10.0" layoutY="174.0" prefHeight="58.0" prefWidth="519.0" style="-fx-background-color: #d9eaec;" styleClass="style" stylesheets="@style.css">
+                     <children>
+                        <Button layoutX="330.0" layoutY="4.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="175.0" styleClass="style" stylesheets="@style.css" text="PLAY NOW">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="14.0" layoutY="32.0" prefHeight="20.0" prefWidth="75.0" text="63883.2">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="108.0" layoutY="32.0" prefHeight="20.0" prefWidth="62.0" text="63883.2">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="211.0" layoutY="32.0" prefHeight="20.0" prefWidth="62.0" text="63883.2">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Circle fill="#f7f7f7" layoutX="30.0" layoutY="17.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+                        <ImageView fitHeight="23.0" fitWidth="18.0" layoutX="22.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/OIP%20(18).jpg" />
+                           </image>
+                        </ImageView>
+                        <Circle fill="#f7f7f7" layoutX="233.0" layoutY="17.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="#f7f7f7" layoutX="131.0" layoutY="16.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+                        <ImageView fitHeight="26.0" fitWidth="19.0" layoutX="121.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/OIP%20(22).jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="19.0" layoutX="223.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/OIP%20(23).jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="371.0" layoutY="99.0" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #d9eaec;" styleClass="style" stylesheets="@style.css">
+                     <children>
+                        <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="60.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image/3914248.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="188.0" layoutY="99.0" prefHeight="66.0" prefWidth="162.0" style="-fx-background-color: #d9eaec;" styleClass="style" stylesheets="@style.css">
+                     <children>
+                        <Label layoutX="16.0" layoutY="33.0" prefHeight="18.0" prefWidth="130.0" text="63883.2" textFill="#101010">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="14.0" text="solde">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="18.0" layoutY="12.0" text="inovoice" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="229.0" layoutY="12.0" text="compagny" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="422.0" layoutY="12.0" text="cusomer" textFill="#f4eded">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="10.0" layoutY="99.0" prefHeight="66.0" prefWidth="162.0" style="-fx-background-color: #d9eaec;" styleClass="style" stylesheets="@style.css">
+                     <children>
+                        <Label layoutX="16.0" layoutY="33.0" prefHeight="18.0" prefWidth="130.0" text="63883.2">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="14.0" text="revenu">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="215.0" layoutY="68.0" text="BLUROCK">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="57.0" text="442.12">
+                     <font>
+                        <Font name="Bell MT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="14.0" fitWidth="23.0" layoutX="270.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/3917688.png" />
+                     </image>
+                  </ImageView>
+                  <Circle fill="#f7f7f7" layoutX="448.0" layoutY="53.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="437.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/OIP%20(11).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="473.0" layoutY="34.0" text="camara" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="473.0" layoutY="47.0" text="client pot" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="1184.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/4102964.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="34.0" layoutX="1231.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3536661.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="8.0" layoutY="84.0" prefHeight="48.0" prefWidth="484.0" style="-fx-background-color: #4a4c4c;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/OIP%20(11).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="114.0" layoutY="12.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" styleClass="style" stylesheets="@style.css" text="Update" />
+                  <Label layoutX="359.0" layoutY="13.0" text="444455.23" textFill="#efefef">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="8.0" layoutY="149.0" prefHeight="48.0" prefWidth="484.0" style="-fx-background-color: #4a4c4c;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/OIP%20(12).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="114.0" layoutY="12.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" styleClass="style" stylesheets="@style.css" text="update" />
+                  <Label layoutX="360.0" layoutY="19.0" text="444455.23" textFill="#f7f6f6">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="8.0" layoutY="213.0" prefHeight="48.0" prefWidth="484.0" style="-fx-background-color: #4a4c4c;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/th%20(4).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="115.0" layoutY="11.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" styleClass="style" stylesheets="@style.css" text="update" />
+                  <Label layoutX="357.0" layoutY="15.0" text="444455.23" textFill="#fcf9f9">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="396.0" layoutY="-15.0" prefHeight="58.0" prefWidth="324.0" style="-fx-background-color: #ffffff;" styleClass="style" stylesheets="@style.css">
+               <children>
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="88.0" styleClass="style" stylesheets="@style.css" text="All innovoice" />
+                  <Button layoutX="124.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="75.0" styleClass="style" stylesheets="@style.css" text="droptjh">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="234.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: #f7f78a;" styleClass="style" stylesheets="@style.css" text="Download" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <RadioButton layoutX="390.0" layoutY="427.0" mnemonicParsing="false" text="OUI">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <TextField layoutX="153.0" layoutY="426.0" prefHeight="27.0" prefWidth="215.0" promptText="NOM" styleClass="style" stylesheets="@style.css" />
+      <DatePicker layoutX="492.0" layoutY="423.0" prefHeight="27.0" prefWidth="175.0" promptText="DATE DEBUT" stylesheets="@style.css" />
+      <DatePicker layoutX="793.0" layoutY="422.0" prefHeight="27.0" prefWidth="175.0" promptText="DATE FIN" stylesheets="@style.css" />
+      <TextField layoutX="1014.0" layoutY="418.0" prefHeight="31.0" prefWidth="228.0" promptText="PRENOM" styleClass="style" stylesheets="@style.css" />
+      <ImageView fitHeight="21.0" fitWidth="23.0" layoutX="1211.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/3917754.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="27.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/OIP%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Circle fill="#f0f3f7" layoutX="1119.0" layoutY="156.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="32.0" fitWidth="23.0" layoutX="1108.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/240_F_648213023_E9RX3wo9UI857PvWgecfkHOmOr6hmpjK.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
